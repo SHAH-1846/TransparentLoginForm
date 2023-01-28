@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 13%;
+    right:2%;
+    color: white;
+    /* border: 4px solid red; */
+}
+
+.container h1{
+    text-align: center;
+    margin:1rem ;
+    padding: 1rem;
+    border-bottom: 4px solid white;
+    font-size: 5rem;
+}
+
+/* .container i{
+    color: white;
+    height: 2rem;
+} */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 2px solid white;
+}
+
+.box input{
+    width: 100%;
+    font-size: 2rem;
+    background: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+
+.box label{
+    font-size: 3rem;
+}
+
+ .container button{
+    display:block;
+    margin: auto;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background: none;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+.container .btn:hover{
+    color:black;
+    border-color: black;
+    background-color: white;
+}
+
+
+@media screen and (max-width:232px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width:204px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media screen and (max-width:172px){
+    html{
+        font-size: 35%;
+    }
+}
+
+@media screen and (max-width:134px){
+    html{
+        font-size: 25%;
+    }
+}
+
+@media screen and (min-width:1499px){
+    html{
+        font-size: 100%;
+    }
+}
+
